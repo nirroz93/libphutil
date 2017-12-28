@@ -13,4 +13,7 @@ final class PhutilHebrewLocale extends PhutilLocale {
     return pht('Hebrew');
   }
 
+  public function isRTLLocale() {
+    return true;
+  }
 }

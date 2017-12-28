@@ -71,6 +71,14 @@ abstract class PhutilLocale extends Phobject {
     }
   }
 
+  /**
+   * Flags a locale as RTL language such as hebrew or arabic.
+   *
+   * @return bool True if this locale is RTL languge
+   */
+  public function isRTLLocale() {
+      return false;
+  }
 
   /**
    * Flags a locale as silly, like "English (Pirate)".
